@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+</head>
+
+<body>
+        <div id="290603082330367310" align="center"style="width: 100%; overflow-y: hidden;" class="wcustomhtml">
+
+        <table align="center" style="font-size:25px">
+        <tbody>
+        <tr>
+            <td> Day </td>
+            <td> Month </td>
+            <td> Year </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="number" onchange="clearAnswer()" id="day" value="10" min="1" max="31">
+            </td>
+            <td>
+                <select id="month" onchange="updateDays()">
+                    <option value="1">January</option>
+                    <option value="2">February</option>
+                    <option value="3">March</option>
+                    <option value="4">April</option>
+                    <option value="5">May</option>
+                    <option value="6">June</option>
+                    <option value="7">July</option>
+                    <option value="8">August</option>
+                    <option value="9">September</option>
+                    <option value="10">October</option>
+                    <option value="11" selected>November</option>
+                    <option value="12">December</option>
+                </select>
+            </td>
+            <td>
+                <input type="number" onchange="setDays()" id="year" value="1938" min="1">
+            </td>
+        </tr>
+        </tbody></table>
+        <br>
+        <div id="answer" style="font-size:35px;color:red;font-weight:bold" align="center"></div>
+        <br>
+        <div text-align="center"><button style="background-color:orange; font-size:35px" data-inline="true" onclick="Zeller()">
+            Find Day of Week
+          </button></div>
+        </div>
+</body>
+
+<script src="zeller.js"></script>
+</html>
