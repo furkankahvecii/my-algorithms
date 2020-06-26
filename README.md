@@ -100,5 +100,19 @@ A={a,b,c} kümesinden rastgele kelimeler oluşturulmaktadır.Oluşturulan rastge
 
 ---
 
+### Pacman
 
+HTML Canvas kullanarak Pacman'i çizen ve ağzını açıp kapadıkça önündeki yemleri yiyen Javascript kodlarını yazınız.
+
+[Çözüm](pacman.js)
+
+---
+
+### Zeller's Algoritması
+
+İstediğini tarih için günü, ayı ve yılı seçip haftanın hangi günü olduğunu bulan Javascript kodlarını yazınız.
+
+[Çözüm](zeller.js)
+
+---
 
