@@ -116,3 +116,11 @@ HTML Canvas kullanarak Pacman'i çizen ve ağzını açıp kapadıkça önündek
 
 ---
 
+### Pathdeki dosya ve klasör sayılarını bulmak
+
+Verilen pathdeki normal dosya ve klasör sayılarını sayıp ekrana yazacak programı C dilinde yazınız.
+
+[Çözüm](c/folder_file_count.cpp)
+
+---
+
