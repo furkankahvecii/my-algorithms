@@ -5,7 +5,7 @@
 
 Verilen bir N tamsayısına kadar olan asal sayıları üreten ve bu sayıları bağlı liste içerisinde döndüren bir fonksiyon yazmanız istenmektedir. İstenilen işlevin yerine getirilebilmesi için gerekli yapı (structure) ve ek fonksiyonların da tanımlı olduğu C kodunu yazınız.
 
-[Çözüm](asal_linkedlist.cpp)
+[Çözüm](c/asal_linkedlist.cpp)
 
 ---
 
@@ -13,7 +13,7 @@ Verilen bir N tamsayısına kadar olan asal sayıları üreten ve bu sayıları 
 
 Sondan başa ya da baştan sona okunduğunda aynı içeriği veren sözcük, kalıp ya da tümceler, “palindrom” olarak tanımlanmaktadır. Örneğin, boşluk ve noktalama işaretlerini göz ardı ettiğimizde, “ey edip adanada pide ye” bir palindromdur. Buna göre, girilen bir ifadenin palindrom olup olmadığını yığın (stack) kullanarak belirleyen C kodunu yazınız.
 
-[Çözüm](palindrome_stack.cpp)
+[Çözüm](c/palindrome_stack.cpp)
 
 ---
 
@@ -21,7 +21,7 @@ Sondan başa ya da baştan sona okunduğunda aynı içeriği veren sözcük, kal
 
 Bir iskambil oyununu C dilinde gerçekleştirmeniz isteniyor. 
 
-[Çözüm](iskambil_oyunu.cpp)
+[Çözüm](c/iskambil_oyunu.cpp)
 
 ---
 
@@ -29,7 +29,7 @@ Bir iskambil oyununu C dilinde gerçekleştirmeniz isteniyor.
 
 A[0..n-2] dizisi, 0’den n’ye kadar n-1 tamsayıyı artan sırada içermektedir. Ancak, belirtilen değer aralığındaki bir tamsayı eksiktir. Dizideki eksik olan sayıyı belirlemek için olabildiğince etkin biçimde çalışan bir algoritma tasarlayıp, algoritmanızı C dilinde yazınız.
 
-[Çözüm](iskambil_oyunu.cpp)
+[Çözüm](c/iskambil_oyunu.cpp)
 
 ---
 
@@ -43,7 +43,7 @@ m,g,h = 8, 12.001, 0.08 <br><br>
 Yukarıda verilen fonksiyonların grafiğini Python dili kullanarak çiziniz.
 
 
-[Çözüm](plot_functions.py)
+[Çözüm](python/plot_functions.py)
 
 ---
 
@@ -55,7 +55,7 @@ Ta = 2.7 <br>
 Tb = 3.7
 
 
-[Çözüm](denklem_cozme.py)
+[Çözüm](python/denklem_cozme.py)
 
 ---
 
@@ -63,7 +63,7 @@ Tb = 3.7
 
 8 x 8 boyutunda kare bir satranç tahtası göz önüne alındığında, Atın konumu ve bir hedefin konumu verilir. Atın hedef pozisyona ulaşmak için atacağı minimum adımları bulan Java kodunu yazınız.
 
-[Çözüm](chess_knight_min_steps.java)
+[Çözüm](java/chess_knight_min_steps.java)
 
 
 ---
@@ -72,7 +72,7 @@ Tb = 3.7
 
 Seçimli sıralama (selection sort) algoritmasını kullanarak çift yönlü bağlı listeleri sıralayabilen bir fonksiyon yazmanız istenmektedir. İstenilen işlevin yerine getirilebilmesi için gerekli yapı (structure) ve varsa ek fonksiyonların da tanımlı olduğu C kodunu yazınız. 
 
-[Çözüm](selection_sort_doubly_list.cpp)
+[Çözüm](c/selection_sort_doubly_list.cpp)
 
 ---
 
@@ -80,7 +80,7 @@ Seçimli sıralama (selection sort) algoritmasını kullanarak çift yönlü ba�
 
 N adet elemanı sıralı şekilde içeren bir dizinin sonunda N+1. eleman olarak sıralanmamış bir sayı bulunmaktadır. Bu eleman dizide uygun konuma yerleştirilmek istenmektedir. Örneğin [13, 56, 87, 93, 65] gibi bir dizinin son halinin [13, 56, 65, 87, 93] şeklinde olmalıdır. Bu sorunun çözümüne yönelik, çalışma zamanı maksimum O(n) olacak şekilde bir algoritma tasarlayıp, bu algoritmayı fonksiyon şeklinde içeren bir C kodu yazınız. 
 
-[Çözüm](array_lastvalue_sort.cpp)
+[Çözüm](c/array_lastvalue_sort.cpp)
 
 ---
 
@@ -88,7 +88,7 @@ N adet elemanı sıralı şekilde içeren bir dizinin sonunda N+1. eleman olarak
 
 N adet sayı içeren bir dizi verildiğinde bu dizi içerisinde toplamları K olan iki sayı olup olmadığını maksimum O(NlogN) zamanda belirleyen bir algoritma geliştirip Java dilinde kodlayınız.
 
-[Çözüm](two_sum.java)
+[Çözüm](java/two_sum.java)
 
 ---
 
@@ -96,7 +96,7 @@ N adet sayı içeren bir dizi verildiğinde bu dizi içerisinde toplamları K ol
 
 A={a,b,c} kümesinden rastgele kelimeler oluşturulmaktadır.Oluşturulan rastgele kelimelerin uzunlukları uz(K) şeklinde tanımlanmıştır ve K ise üretilen kelimedir.K kelimesi bir karakter dizisi olarak düşünülebilir.Rastgele oluşturulan kelime b ile başlayıp b veya c ile bitiyorsa ve aynı zamanda ardışık en az iki tane a içermiyorsa,AC değişkeninin değeri 1 olacaktır ve diğer durumda ise 0 olacaktır.
 
-[Çözüm](rastgele_kelime_kontrol.java)
+[Çözüm](java/rastgele_kelime_kontrol.java)
 
 ---
 
@@ -104,7 +104,7 @@ A={a,b,c} kümesinden rastgele kelimeler oluşturulmaktadır.Oluşturulan rastge
 
 HTML Canvas kullanarak Pacman'i çizen ve ağzını açıp kapadıkça önündeki yemleri yiyen Javascript kodlarını yazınız.
 
-[Çözüm](pacman.js)
+[Çözüm](javascript/pacman.js)
 
 ---
 
@@ -112,7 +112,7 @@ HTML Canvas kullanarak Pacman'i çizen ve ağzını açıp kapadıkça önündek
 
 İstediğini tarih için günü, ayı ve yılı seçip haftanın hangi günü olduğunu bulan Javascript kodlarını yazınız.
 
-[Çözüm](zeller.js)
+[Çözüm](javascript/zeller.js)
 
 ---
 
