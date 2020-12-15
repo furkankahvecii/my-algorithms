@@ -132,5 +132,16 @@ Verilen pathdeki normal dosya ve klasör sayılarını sayıp ekrana yazacak pro
 
 ---
 
+### Örüntü Tespit Edip Bilinmeyen Sayıyı Bulmak
+
+İçinde bir adet bilinmeyen sayı bulunan sayı dizisinde (örüntüsünde), dizi kuralını tespit eden ve bilinmeyen sayının değerini bulan Python programını yazınız.<br>
+Sayı dizisi “,” ile ayrılarak ve bilinmeyen sayı yerine “?” olacak şekilde girilecektir.<br>
+En az 4 eleman girilecektir. (Bilinmeyen dahil)<br>
+Yalnızca Aritmetik ve Geometrik sayı dizileri için azalan sayı dizisi girilebilir. 
+
+[Çözüm](python/oruntu_tespit.py)
+
+---
+
 
 
