@@ -124,3 +124,13 @@ Verilen pathdeki normal dosya ve klasör sayılarını sayıp ekrana yazacak pro
 
 ---
 
+### Çılgın Sayısal Loto
+
+Çılgın Sayısal Loto" kupon hazırlama programı hazırlayınız. Kullanıcıdan kaç kolon oluşturmak istediği bilgisi alınmalıdır. Her kolon için birbirinden farklı 1-90 arası 6 birbirinden farklı sayı rastgele oluşturulmalıdır. Oluşturulan kolonlar listede saklanmalıdır. Listeden yazdırılmalıdır.
+
+[Çözüm](python/cilgin_sayisal_loto.py)
+
+---
+
+
+
