@@ -124,3 +124,24 @@ Verilen pathdeki normal dosya ve klasör sayılarını sayıp ekrana yazacak pro
 
 ---
 
+### Çılgın Sayısal Loto
+
+Çılgın Sayısal Loto" kupon hazırlama programı hazırlayınız. Kullanıcıdan kaç kolon oluşturmak istediği bilgisi alınmalıdır. Her kolon için birbirinden farklı 1-90 arası 6 birbirinden farklı sayı rastgele oluşturulmalıdır. Oluşturulan kolonlar listede saklanmalıdır. Listeden yazdırılmalıdır.
+
+[Çözüm](python/cilgin_sayisal_loto.py)
+
+---
+
+### Örüntü Tespit Edip Bilinmeyen Sayıyı Bulmak
+
+İçinde bir adet bilinmeyen sayı bulunan sayı dizisinde (örüntüsünde), dizi kuralını tespit eden ve bilinmeyen sayının değerini bulan Python programını yazınız.<br>
+Sayı dizisi “,” ile ayrılarak ve bilinmeyen sayı yerine “?” olacak şekilde girilecektir.<br>
+En az 4 eleman girilecektir. (Bilinmeyen dahil)<br>
+Yalnızca Aritmetik ve Geometrik sayı dizileri için azalan sayı dizisi girilebilir. 
+
+[Çözüm](python/oruntu_tespit.py)
+
+---
+
+
+
