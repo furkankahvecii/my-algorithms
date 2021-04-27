@@ -69,4 +69,4 @@ function animatePacman() {
     }, 100);
 }
 
-// You can move pacman using with animatePacman function f
+// You can move pacman using with animatePacman function
